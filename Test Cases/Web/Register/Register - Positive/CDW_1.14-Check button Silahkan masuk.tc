@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Access syarat dan ketentuan</name>
+   <name>CDW_1.14-Check button Silahkan masuk</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c1c3971f-eb79-4bb8-be53-2b5903cdb233</testCaseGuid>
+   <testCaseGuid>4c5b162d-e62b-4ae7-a1ab-860edd0748bb</testCaseGuid>
 </TestCaseEntity>

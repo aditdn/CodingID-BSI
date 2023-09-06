@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Change Whatsapp</name>
+   <name>CDW_1.3-Access syarat dan ketentuan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d5345091-4114-4651-b9fa-15990e526006</testCaseGuid>
+   <testCaseGuid>c1c3971f-eb79-4bb8-be53-2b5903cdb233</testCaseGuid>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check button sign up in footer</name>
+   <name>CDW_3.5-Input Whatsapp with 13 digit number</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d68469f2-c2fd-4cee-aa96-5e6219af9ef4</testCaseGuid>
+   <testCaseGuid>71a7db54-d388-4ed0-91fb-d487d88b224c</testCaseGuid>
 </TestCaseEntity>

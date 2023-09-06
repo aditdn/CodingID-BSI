@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add Profile Picture</name>
+   <name>CDW_1.15-Check button sign up in footer</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2d828b79-37cd-4d7b-9aba-8c90ac79cb8e</testCaseGuid>
+   <testCaseGuid>d68469f2-c2fd-4cee-aa96-5e6219af9ef4</testCaseGuid>
 </TestCaseEntity>
