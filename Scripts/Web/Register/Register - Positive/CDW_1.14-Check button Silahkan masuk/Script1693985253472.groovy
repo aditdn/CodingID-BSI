@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528'))
+WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/a_Silahkan                                 _bd3349'))
+WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Btn-Silahkan_masuk_in_register'))
 
 WebUI.closeBrowser()
 

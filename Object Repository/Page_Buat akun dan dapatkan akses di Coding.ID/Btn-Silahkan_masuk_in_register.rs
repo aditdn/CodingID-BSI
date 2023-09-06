@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Silahkan                                 _bd3349</name>
+   <name>Btn-Silahkan_masuk_in_register</name>
    <tag></tag>
    <elementGuidId>fcd50c8d-cae0-45c9-980b-d1e2cf389cbb</elementGuidId>
    <selectorCollection>

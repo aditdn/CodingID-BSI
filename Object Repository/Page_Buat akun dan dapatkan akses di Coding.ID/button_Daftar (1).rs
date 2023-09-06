@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Daftar (1)</name>
    <tag></tag>
-   <elementGuidId>fb1f3a48-eefd-4570-ace2-e29732305469</elementGuidId>
+   <elementGuidId>34f4500d-4c77-4af6-83c0-4fa4e8ec3b75</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#buttonLoginTrack</value>
+         <value>#buttonRegisterTrack</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='buttonLoginTrack']</value>
+         <value>//button[@id='buttonRegisterTrack']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>18bcfd39-3b98-4adf-96af-e4f7420c5d94</webElementGuid>
+      <webElementGuid>f5955c4f-23b9-4143-9b0a-17115d924668</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>buttonLoginTrack</value>
-      <webElementGuid>a92d6dd4-b25c-4876-b3ea-961cbc3287c7</webElementGuid>
+      <value>buttonRegisterTrack</value>
+      <webElementGuid>9065ec84-40cd-40e8-a732-6823ef2737ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>f8237874-1c73-40b5-a37f-988061b19020</webElementGuid>
+      <webElementGuid>b6855b5b-eb2f-4da3-a975-bd6a4b40b044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg btn-block</value>
-      <webElementGuid>61acf2bc-1e39-4800-ba0f-5fdcdd578753</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>4</value>
-      <webElementGuid>482b417c-fc9d-45cb-9e46-2527dd46e690</webElementGuid>
+      <value>btn btn-block btn-primary</value>
+      <webElementGuid>4a1d1e52-3931-41f8-962f-96f4c022613b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,60 +54,68 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                                        Login
-                                                    </value>
-      <webElementGuid>b5880052-5bc6-4e04-b914-e5ce751759ee</webElementGuid>
+                                            Daftar
+                                        </value>
+      <webElementGuid>6a02a9d6-9242-4e24-a29f-e40f9ec43b4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;buttonLoginTrack&quot;)</value>
-      <webElementGuid>c6cbc71c-9a9f-413e-a6af-147f27c98e57</webElementGuid>
+      <value>id(&quot;buttonRegisterTrack&quot;)</value>
+      <webElementGuid>9695160b-af64-4a1c-9862-879fd0c194a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='buttonLoginTrack']</value>
-      <webElementGuid>b69ce392-2333-4a73-b3db-371a0ddc89f6</webElementGuid>
+      <value>//button[@id='buttonRegisterTrack']</value>
+      <webElementGuid>9e20a609-81a5-4836-b1b3-3beacec4c838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>6566c8ba-5750-40e0-b0f3-0bf7f2072cad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='syarat dan ketentuan'])[1]/following::button[1]</value>
+      <webElementGuid>9538fefa-f4ee-4aad-8247-1647f83b5697</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa kata sandi ?'])[1]/preceding::button[2]</value>
-      <webElementGuid>6fb35922-d503-4035-8960-deb8880c796a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi kata sandi'])[1]/following::button[1]</value>
+      <webElementGuid>bbd662e4-d6c7-466a-b072-f25058880cb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar']/parent::*</value>
+      <webElementGuid>95327fc0-0708-46f2-9c64-3d8df377bb8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button</value>
-      <webElementGuid>d51800fa-f26c-44b0-b9d5-7b529af9a54f</webElementGuid>
+      <value>//div[8]/div/button</value>
+      <webElementGuid>923ff1f9-bad9-4e74-b0f1-18605d294092</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'buttonLoginTrack' and @type = 'submit' and (text() = '
-                                                        Login
-                                                    ' or . = '
-                                                        Login
-                                                    ')]</value>
-      <webElementGuid>eafbce62-1c4c-4f0c-860b-887f487fba46</webElementGuid>
+      <value>//button[@id = 'buttonRegisterTrack' and @type = 'submit' and (text() = '
+                                            Daftar
+                                        ' or . = '
+                                            Daftar
+                                        ')]</value>
+      <webElementGuid>2ca3f2e1-06a0-4ea3-a98a-600a09693e05</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

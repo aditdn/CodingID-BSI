@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Change Password</name>
+   <name>Btn-My_Account_in_homepage</name>
    <tag></tag>
-   <elementGuidId>a29d8f48-7622-4c06-a2be-2e820cb1100c</elementGuidId>
+   <elementGuidId>9f6419cd-bf24-42e0-9c44-fb5e20135099</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a:nth-of-type(2)</value>
+         <value>ul.wm-dropdown-menu > li:nth-of-type(3) > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div[3]/div/a[2]</value>
+         <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,105 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3acafd71-2766-4919-b8f5-e62571369802</webElementGuid>
+      <webElementGuid>68f0bd7b-e353-499b-a270-57b224578732</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/dashboard/profile/change_password</value>
-      <webElementGuid>77d7af77-f464-44c9-bdb1-d89edcd8771a</webElementGuid>
+      <value>/dashboard</value>
+      <webElementGuid>7899e518-79c4-48a2-ae1b-18c21b402d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Change Password</value>
-      <webElementGuid>1fd5e6c8-74dd-46f9-8118-53971c27f6f7</webElementGuid>
+      <value>My Account
+                                                                </value>
+      <webElementGuid>dfe546dc-16d4-415c-a1fc-e1e24862ce90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row mt-4 align-items-end&quot;]/div[@class=&quot;col-lg-4 col-md-4 col-sm-12 text-center&quot;]/div[@class=&quot;text-white mb-3&quot;]/a[2]</value>
-      <webElementGuid>b77ea9c3-19da-4198-95e6-20c11a1b844a</webElementGuid>
+      <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;___class_+?26___&quot;]/ul[@class=&quot;wm-dropdown-menu&quot;]/li[3]/a[1]</value>
+      <webElementGuid>72199011-d7cd-4b35-8609-cb555b6713e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div[3]/div/a[2]</value>
-      <webElementGuid>10384909-4bec-41cb-91db-32b257b8dd08</webElementGuid>
+      <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[3]/a</value>
+      <webElementGuid>09c3a24d-b7ec-4834-9d73-fb146f7de74c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Change Password')]</value>
-      <webElementGuid>0371a0f7-ed7f-46f3-ac94-aeda2c9d25c1</webElementGuid>
+      <value>//a[contains(text(),'My Account')]</value>
+      <webElementGuid>44dcbc13-e68e-4c95-9863-363f18b18c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Profile'])[1]/following::a[1]</value>
-      <webElementGuid>e2f5dbf8-f4ff-4fde-85a2-96e5df59c436</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::a[1]</value>
+      <webElementGuid>a03978ba-a584-4f74-86bd-74c7d49712fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail Information'])[1]/preceding::a[1]</value>
-      <webElementGuid>e04549d6-662f-4a1d-97af-8136cadea6a7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[1]</value>
+      <webElementGuid>5f3c1b9b-b6c7-4b08-a372-0b93d002d006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::a[1]</value>
-      <webElementGuid>88e75a9b-157a-4d39-a69f-15138d8002b8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::a[3]</value>
+      <webElementGuid>ea609ab3-ff90-4b97-bb77-f59a458ddb36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Change Password']/parent::*</value>
-      <webElementGuid>207463fe-a742-414a-9c27-506905920e6d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='My Account']/parent::*</value>
+      <webElementGuid>82d5259c-3391-4b98-a677-88dd33a34b73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/dashboard/profile/change_password')]</value>
-      <webElementGuid>d715f414-4964-486c-823e-699bccfbcd20</webElementGuid>
+      <value>(//a[contains(@href, '/dashboard')])[2]</value>
+      <webElementGuid>cefe5c0f-d8f4-4624-9fb5-cc010b3833f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>cc2ee751-cca8-416d-8261-3c33e844cc38</webElementGuid>
+      <value>//li[7]/ul/li[3]/a</value>
+      <webElementGuid>6d66244f-13e0-43ce-a0c2-e3d60f076f70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/dashboard/profile/change_password' and (text() = 'Change Password' or . = 'Change Password')]</value>
-      <webElementGuid>fc90d3d2-aef0-4bd1-90e4-d4c34cf83db3</webElementGuid>
+      <value>//a[@href = '/dashboard' and (text() = 'My Account
+                                                                ' or . = 'My Account
+                                                                ')]</value>
+      <webElementGuid>b6b719cf-1221-481e-ad9a-6ff940b4d79a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

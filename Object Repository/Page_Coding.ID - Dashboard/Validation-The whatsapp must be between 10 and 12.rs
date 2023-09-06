@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_The whatsapp must be between 10 and _22356d</name>
+   <name>Validation-The whatsapp must be between 10 and 12</name>
    <tag></tag>
    <elementGuidId>3ab7309e-5e44-49b0-96f9-b25fd4b52092</elementGuidId>
    <selectorCollection>

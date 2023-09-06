@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 
     'AWnwaDJYiAlBRH3IO6BHKA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
 

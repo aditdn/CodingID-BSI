@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign Up</name>
+   <name>Btn-Sign Up_footer</name>
    <tag></tag>
    <elementGuidId>aebdd07e-6380-4959-9d71-b77c44769d40</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

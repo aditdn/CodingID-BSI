@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Buat                                _86b528</name>
+   <name>Btn-Buat_Akun</name>
    <tag></tag>
-   <elementGuidId>47134255-fff1-4149-b29a-dcb125b0464c</elementGuidId>
+   <elementGuidId>286f8489-1da7-4b11-a6f3-d1430f6d4d79</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d7f8eb91-8d40-4354-80f6-88ba4bbacdd0</webElementGuid>
+      <webElementGuid>fa9d1bb2-d2e5-41cf-b245-6092ca307558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonBanner btn-sm</value>
-      <webElementGuid>eab42b27-bda1-481a-be7f-331410d16b7e</webElementGuid>
+      <webElementGuid>21995c87-52ef-4782-a8e0-5a77c402c98a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>Buat
                                                         Akun</value>
-      <webElementGuid>fbe1c7a0-8800-428c-b357-da00e7850af6</webElementGuid>
+      <webElementGuid>ccd5b31f-6f25-420d-9bfd-366a19ea787f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;wm-megamenu-li&quot;]/form[1]/button[@class=&quot;buttonBanner btn-sm&quot;]</value>
-      <webElementGuid>54351ddf-1227-4637-a7ff-caf4bc32306e</webElementGuid>
+      <webElementGuid>f1b6ac4a-3215-4cf6-99c4-b8413788946b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbar-collapse-1']/ul/li[8]/form/button</value>
-      <webElementGuid>421e523e-1e6e-4607-ab4e-35629437295f</webElementGuid>
+      <webElementGuid>873ef397-0618-4049-97ba-7bbc351f37a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::button[1]</value>
-      <webElementGuid>7a68aa0d-d276-425f-95fa-5132908cea23</webElementGuid>
+      <webElementGuid>5f10c029-40e1-4368-a5fb-1cb3dafd85c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontak'])[1]/following::button[1]</value>
-      <webElementGuid>e878e600-4b93-4b1a-8c5d-a37e04eb67fa</webElementGuid>
+      <webElementGuid>f72e1a41-55e3-4f90-89a5-52e804275429</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::button[1]</value>
-      <webElementGuid>e06c09ef-7877-4b14-9652-ebc5c601ca3b</webElementGuid>
+      <webElementGuid>9a8fea5a-c678-4a49-8fab-bec66c14ac0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[2]/preceding::button[2]</value>
-      <webElementGuid>c41fc062-698f-41a8-b1a3-da68aed5412c</webElementGuid>
+      <webElementGuid>9b9c77ac-e03e-44fd-a71b-c2642cc728f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]/form/button</value>
-      <webElementGuid>eaefcfa4-33ab-4248-b2ea-1b014f77d3b4</webElementGuid>
+      <webElementGuid>8130e8cb-2621-4234-a9f0-65a28fa2cf46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <value>//button[(text() = 'Buat
                                                         Akun' or . = 'Buat
                                                         Akun')]</value>
-      <webElementGuid>c4e9b482-b02b-476e-8d64-fd492c77758c</webElementGuid>
+      <webElementGuid>c3042e44-e4e1-409f-bddd-af167a285dd3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

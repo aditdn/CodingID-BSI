@@ -21,29 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 
     'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
 
 WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/a_My Account'))
+WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
 
 WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/span_Profil'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/a_Change Password'))
+WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Change Password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/input_Old Password_current_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Old_Password_Profile'), 
     'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/input_New Password_password'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-New_Password_Profile'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/input_Confirmation Password_password_confirmation'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Confirmation_Password_Profile'), 
     'AWnwaDJYiAmw0Tn/ZROizA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))

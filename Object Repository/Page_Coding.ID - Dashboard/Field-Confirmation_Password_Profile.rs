@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Confirmation Password_password_confirmation</name>
+   <name>Field-Confirmation_Password_Profile</name>
    <tag></tag>
    <elementGuidId>a071b330-c34f-4490-aeb7-26ef598630f8</elementGuidId>
    <selectorCollection>

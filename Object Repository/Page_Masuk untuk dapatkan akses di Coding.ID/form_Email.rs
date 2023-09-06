@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>form_Email                                 _b48352</name>
+   <name>form_Email</name>
    <tag></tag>
    <elementGuidId>929b86e8-e25b-446e-ae78-2d1812d0c4a3</elementGuidId>
    <selectorCollection>

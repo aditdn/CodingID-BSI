@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_syarat dan ketentuan</name>
+   <name>Btn-syarat_dan_ketentuan</name>
    <tag></tag>
    <elementGuidId>474b56c2-b018-45d3-8e53-a4ba7cd6b527</elementGuidId>
    <selectorCollection>

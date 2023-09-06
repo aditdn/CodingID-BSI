@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_JanFebMarAprMayJunJulAugSepOctNovDec</name>
+   <name>Dropdown-month</name>
    <tag></tag>
    <elementGuidId>ff1338c9-21ff-4413-99f0-e87270e0fc32</elementGuidId>
    <selectorCollection>

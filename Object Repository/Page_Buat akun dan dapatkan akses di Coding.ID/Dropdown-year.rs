@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_192319241925192619271928192919301931_4b46b8</name>
+   <name>Dropdown-year</name>
    <tag></tag>
    <elementGuidId>61f59d3a-0ce6-45ae-88ae-a90a534657e7</elementGuidId>
    <selectorCollection>

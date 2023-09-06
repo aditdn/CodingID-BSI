@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Tanggal lahir_birth_date</name>
+   <name>Field-Tanggal lahir</name>
    <tag></tag>
-   <elementGuidId>ba7d37cc-bbdf-47da-bc2f-453018a47862</elementGuidId>
+   <elementGuidId>c03e73dc-5eed-4b31-8857-75bdb7d60c23</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0cddfc7c-9ae9-4a04-965a-0905c853e91d</webElementGuid>
+      <webElementGuid>182e131a-ac17-4d29-ad9b-382dae0479e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b37783fa-9222-42d0-b057-100755367670</webElementGuid>
+      <webElementGuid>dc7fb7b5-bb9d-4d45-abd1-b51890582d40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Tanggal Lahir</value>
-      <webElementGuid>5f78f011-6a66-4b84-85f4-d4a66ddd38f4</webElementGuid>
+      <webElementGuid>10d51e3a-c28b-4132-bee6-cd1fb3af74b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>birth_date</value>
-      <webElementGuid>62edd7c6-baf4-435d-9dea-2a50d3b46537</webElementGuid>
+      <webElementGuid>2af31a8f-a976-49cf-a424-5d6cffc376f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control datepicker</value>
-      <webElementGuid>3cd47b37-6bcf-44dc-81f0-5bd6f7a7dd28</webElementGuid>
+      <webElementGuid>95c94e04-4d09-4ace-acc5-1c508e3e685b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-htmlimports no-flash no-proximity no-applicationcache blobconstructor blob-constructor cookies cors customprotocolhandler dataview eventlistener geolocation history no-ie8compat json notification queryselector serviceworker customevent postmessage svg templatestrings typedarrays websockets no-xdomainrequest webaudio webworkers no-contextmenu cssall audio canvas canvastext contenteditable emoji olreversed no-userdata video no-vml webanimations webgl adownload audioloop canvasblending todataurljpeg todataurlpng todataurlwebp canvaswinding no-ambientlight hashchange inputsearchevent pointerevents no-hiddenscroll mathml unicoderange no-touchevents no-unicode no-batteryapi no-battery-api crypto no-dart gamepads fullscreen indexeddb indexeddb-deletedatabase intl pagevisibility performance pointerlock quotamanagement requestanimationframe raf vibrate no-webintents no-lowbattery getrandomvalues backgroundblendmode cssanimations backdropfilter backgroundcliptext appearance exiforientation audiopreload&quot;]/body[1]/div[@class=&quot;wm-main-wrapper&quot;]/div[@class=&quot;wm-main-section&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-md-8&quot;]/input[@class=&quot;form-control datepicker&quot;]</value>
-      <webElementGuid>b57910a0-20e4-4b9c-8749-e7c7c5d3b23e</webElementGuid>
+      <webElementGuid>d34c6a65-2244-4100-ae49-6c915bb32771</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='birth_date']</value>
-      <webElementGuid>8b3d6266-373f-430e-acad-87e433b8472c</webElementGuid>
+      <webElementGuid>d0a8f3f8-8451-4e2b-89b4-4e6e97fced72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>49a90efc-5578-4602-850d-5c0d493e8473</webElementGuid>
+      <webElementGuid>a08e8902-6e6d-49d1-873b-e58b0b44a9b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Tanggal Lahir' and @name = 'birth_date']</value>
-      <webElementGuid>c95250db-c7e7-4926-b087-b86aa4d37ca6</webElementGuid>
+      <webElementGuid>ed042748-7ddd-49dd-bfdc-35b4289fe112</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
