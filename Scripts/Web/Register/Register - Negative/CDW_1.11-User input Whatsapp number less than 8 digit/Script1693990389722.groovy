@@ -44,5 +44,8 @@ WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses 
 
 WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar (3)'))
 
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
+    'The whatsapp must be between 10 and 12 digits.')
+
 WebUI.closeBrowser()
 
