@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Tanggal lahir_birth_date (4)</name>
+   <tag></tag>
+   <elementGuidId>706be6c0-81d3-4ded-969f-82dfdf2072f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;birth_date&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='birth_date']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1638bad6-4e20-44e1-af40-9d240517b01e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5577c70d-3008-4f69-a853-8e9545bdeb31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Tanggal Lahir</value>
+      <webElementGuid>7ec94ef4-a0a5-4e40-977d-3f76942f9844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>birth_date</value>
+      <webElementGuid>06f3a6a2-6713-48f7-a40c-52a865f3e9eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control datepicker</value>
+      <webElementGuid>bd9973d8-84f1-469b-a915-328e16909053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-htmlimports no-flash no-proximity no-applicationcache blobconstructor blob-constructor cookies cors customprotocolhandler dataview eventlistener geolocation history no-ie8compat json notification queryselector serviceworker customevent postmessage svg templatestrings typedarrays websockets no-xdomainrequest webaudio webworkers no-contextmenu cssall audio canvas canvastext contenteditable emoji olreversed no-userdata video no-vml webanimations webgl adownload audioloop canvasblending todataurljpeg todataurlpng todataurlwebp canvaswinding no-ambientlight hashchange inputsearchevent pointerevents no-hiddenscroll mathml unicoderange no-touchevents no-unicode no-batteryapi no-battery-api crypto no-dart gamepads fullscreen indexeddb indexeddb-deletedatabase intl pagevisibility performance pointerlock quotamanagement requestanimationframe raf vibrate no-webintents no-lowbattery getrandomvalues backgroundblendmode cssanimations backdropfilter backgroundcliptext appearance exiforientation audiopreload&quot;]/body[1]/div[@class=&quot;wm-main-wrapper&quot;]/div[@class=&quot;wm-main-section&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-md-8&quot;]/input[@class=&quot;form-control datepicker&quot;]</value>
+      <webElementGuid>79be2df5-e135-4e0f-a64f-34c0f32785e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='birth_date']</value>
+      <webElementGuid>c16d96f9-fd20-4c04-a9c9-c2e870d6a8a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>61768165-d031-419e-9906-784a35d19cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Tanggal Lahir' and @name = 'birth_date']</value>
+      <webElementGuid>7e3ee482-a967-4667-998b-d46329b61531</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
