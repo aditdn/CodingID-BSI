@@ -25,5 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent wit
 
 WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Btn-Silahkan_masuk_in_register'))
 
+WebUI.verifyElementText(findTestObject('Page_Masuk untuk dapatkan akses di Coding.ID/text_Masuk_Masuk page'), 'Masuk')
+
 WebUI.closeBrowser()
 

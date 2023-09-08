@@ -25,5 +25,8 @@ WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn-Bu
 
 WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Btn-syarat_dan_ketentuan'))
 
+WebUI.verifyElementText(findTestObject('Term, Privacy, and Policy page/Text_Coding.ID Privacy and Policy_term and condition page'), 
+    'Coding.ID Privacy and Policy')
+
 WebUI.closeBrowser()
 

@@ -21,17 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
+WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Nama'), 'Adit Testing')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Tanggal lahir'), 
-    '29-03-1997')
+WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Tanggal lahir'), '29-03-1997')
 
 WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-E-Mail'), 'contoh@mail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Whatsapp'), 
-    '085221698407')
+WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Whatsapp'), '085221698407')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Kata Sandi'), 
     'AWnwaDJYiAmw0Tn/ZROizA==')
@@ -42,6 +40,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapa
 WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Checkbox-Daftar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
+
+WebUI.verifyElementText(findTestObject('Verification page/text_Verifikasi Email-verifikasi page'), 'Verifikasi Email')
 
 WebUI.closeBrowser()
 

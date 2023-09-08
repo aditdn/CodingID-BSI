@@ -30,16 +30,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatk
 
 WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt'))
+WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn_icon profile_homepage'))
 
 WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/span_Profil'))
+WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn_Profil'))
 
 WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Change Password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Old_Password_Profile'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Old_Password_Profile'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-New_Password_Profile'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
@@ -48,7 +47,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.ID - Dashbo
 
 WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_OK'))
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/text_Berhasil_edit profil page'), 'Berhasil')
 
 WebUI.closeBrowser()
 

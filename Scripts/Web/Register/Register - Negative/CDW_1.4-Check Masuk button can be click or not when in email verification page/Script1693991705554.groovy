@@ -21,34 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528 (3)'))
+WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Nama_name (3)'), 'test123')
+WebUI.setText(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Field-Nama'), 'test123')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Tanggal lahir_birth_date (3)'), 
-    '29-Mar-1997')
+WebUI.setText(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Field-Tanggal lahir'), '29-Mar-1997')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_E-Mail_email (3)'), 
-    'contoh@mail.com')
+WebUI.setText(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Field_E-Mail'), 'contoh@mail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Whatsapp_whatsapp (3)'), 
-    '1234567889')
+WebUI.setText(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Field-Whatsapp'), '1234567889')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Kata Sandi_password (3)'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Field-Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_password_confirmation (3)'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Field-Konfirmasi kata sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1 (3)'))
+WebUI.click(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/Checkbox-Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar (4)'))
+WebUI.click(findTestObject('Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Verifikasi Email/img_Toggle navigation_logonya'))
+WebUI.click(findTestObject('Object Repository/Verification page/Logo_Coding ID_Verification page'))
 
-WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/a_Masuk'))
+WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn_Masuk_homepage'))
 
-WebUI.verifyElementText(findTestObject('Page_Masuk untuk dapatkan akses di Coding.ID/span_Masuk'), 'Masuk')
+WebUI.verifyElementText(findTestObject('Page_Masuk untuk dapatkan akses di Coding.ID/text_Masuk_Masuk page'), 'Masuk')
 
 WebUI.closeBrowser()
 
