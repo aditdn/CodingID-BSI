@@ -21,26 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
+WebUI.click(findTestObject('Homepage/Homepage fix/Btn_Masuk_fix'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Masuk page/Masuk/Field_Email_fix'), 'dwinugrahaaditya29@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setText(findTestObject('Masuk page/Masuk/Field_kata sandi fix'), 'Adittest')
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
+WebUI.click(findTestObject('Masuk page/Masuk/Btn_Login_fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile_homepage'))
+WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
+WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_My account fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn_Profil'))
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_profile fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Edit Profile'))
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Edit Profile fix'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Phone_Profile'), '6123456789121')
+WebUI.setText(findTestObject('Profil page/Page_Coding.ID - Dashboard/Field_Phone fix'), '6123456789121')
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Save Changes fix'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
     'The whatsapp must be between 10 and 12 digits.')

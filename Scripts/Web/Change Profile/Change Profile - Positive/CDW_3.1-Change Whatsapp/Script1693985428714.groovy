@@ -17,31 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Web/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
+WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_My account fix'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_profile fix'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 'Adittest')
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Edit Profile fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
+WebUI.setText(findTestObject('Profil page/Page_Coding.ID - Dashboard/Field_Phone fix'), '612345678911')
 
-WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn_icon profile_homepage'))
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Save Changes fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn_Profil'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Edit Profile'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Phone_Profile'), '612345678912')
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
-
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/text_Berhasil_edit profil page'), 'Berhasil')
+WebUI.verifyElementText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Text_Berhasil fix'), 'Berhasil')
 
 WebUI.closeBrowser()
 

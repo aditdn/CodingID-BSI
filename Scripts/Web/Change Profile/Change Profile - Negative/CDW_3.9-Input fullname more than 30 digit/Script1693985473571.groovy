@@ -17,30 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Web/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
+WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_My account fix'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_profile fix'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Edit Profile fix'))
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
+WebUI.setText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Field_Fullname fix'), 'qwertyuiopasdfghjklzxcvbnmqwerty')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile_homepage'))
-
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn_Profil'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Edit Profile'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Phone_Profile'), 'qwertyuiopasdfghjklzxcvbnmqwerty')
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
+WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Save Changes fix'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The name may not be greater than 30'), 
     'The name may not be greater than 30 characters.')
