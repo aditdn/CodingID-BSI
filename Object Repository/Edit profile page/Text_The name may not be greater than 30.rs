@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Validation_The name may not be greater than 30</name>
+   <name>Text_The name may not be greater than 30</name>
    <tag></tag>
    <elementGuidId>a8f53ecc-c577-46e6-b6e0-74e5c857156e</elementGuidId>
    <selectorCollection>

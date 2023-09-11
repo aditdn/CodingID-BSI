@@ -19,14 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Homepage/Btn_buat akun'))
 
 WebUI.click(findTestObject('Buat akun page/Btn_syarat dan ketentuan'))
 
-WebUI.verifyElementText(findTestObject('Buat akun page/Text_Coding.ID Privacy and Policy'), 
-    'Coding.ID Privacy and Policy')
+WebUI.switchToWindowTitle('Coding.ID - Term, Privacy, and Policy')
+
+WebUI.verifyElementText(findTestObject('Buat akun page/Text_Coding.ID Privacy and Policy'), 'Coding.ID Privacy and Policy')
 
 WebUI.closeBrowser()
 

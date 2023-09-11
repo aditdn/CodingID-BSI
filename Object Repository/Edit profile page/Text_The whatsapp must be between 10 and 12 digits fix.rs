@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Validation_The whatsapp must be between 10 and 12 digits fix</name>
+   <name>Text_The whatsapp must be between 10 and 12 digits fix</name>
    <tag></tag>
    <elementGuidId>dc7d66cc-d57c-486f-9246-012717c35112</elementGuidId>
    <selectorCollection>

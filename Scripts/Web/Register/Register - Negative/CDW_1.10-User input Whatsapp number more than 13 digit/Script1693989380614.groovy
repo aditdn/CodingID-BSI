@@ -33,14 +33,13 @@ WebUI.setText(findTestObject('Buat akun page/Field_Whatsapp'), '1234567812345678
 
 WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
 WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
 WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Edit profile page/Validation_The whatsapp must be between 10 and 12 digits fix'), 
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
     'The whatsapp must be between 10 and 12 digits.')
 
 WebUI.closeBrowser()
