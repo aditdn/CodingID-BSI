@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile fix'))
+WebUI.click(findTestObject('Homepage/Btn_icon profile'))
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_My account fix'))
+WebUI.click(findTestObject('Homepage/Btn_My account'))
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_profile fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_profile'))
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Edit Profile fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_Edit Profile'))
 
-WebUI.setText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Field_Fullname fix'), 'qwertyuiopasdfghjklzxcvbnmqwerty')
+WebUI.setText(findTestObject('Edit profile page/Field_Fullname'), 'qwertyuiopasdfghjklzxcvbnmqwerty')
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Save Changes fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_Save Changes'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The name may not be greater than 30'), 
     'The name may not be greater than 30 characters.')

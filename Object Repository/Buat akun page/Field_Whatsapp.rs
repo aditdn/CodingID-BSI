@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Field_E-Mail</name>
+   <name>Field_Whatsapp</name>
    <tag></tag>
-   <elementGuidId>4304dafd-2512-4399-9bb5-bc45113f8499</elementGuidId>
+   <elementGuidId>8df529fe-9c55-44ac-825d-3201d3a30edf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//input[@id='whatsapp']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>#whatsapp</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fde7690d-6dd6-48a1-85c1-2009728ba1d6</webElementGuid>
+      <webElementGuid>e5dd000f-6d61-48da-b005-2125edd376c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>bd4900e3-ca08-40b2-97a2-deec2eb9ff06</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>contoh@mail.com</value>
-      <webElementGuid>3ced961a-428a-4eed-ae37-b4534da6f054</webElementGuid>
+      <value>whatsapp</value>
+      <webElementGuid>fd9c5715-2c5d-4f47-8f39-e9e72c3174c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>73714aa1-c505-44a5-abbd-e7dbd2b45ff5</webElementGuid>
+      <value>number</value>
+      <webElementGuid>67755b32-5110-427c-aa72-b318e45ecfde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>WhatsApp </value>
+      <webElementGuid>47a996d0-7097-4a25-9aee-18b30aa6af9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,54 +54,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control </value>
-      <webElementGuid>588b158d-4f5b-4eb3-b95a-7029e1d2ee6b</webElementGuid>
+      <webElementGuid>e5ccc520-11d9-4405-af36-fdea5273241f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>b9eaac96-a729-4fcf-b7c6-7a3b515a876f</webElementGuid>
+      <value>whatsapp</value>
+      <webElementGuid>7c1984b0-db81-486f-819c-33960247fb47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>311697aa-cdf8-4a9f-b58d-8218ccda6774</webElementGuid>
+      <value>whatsapp</value>
+      <webElementGuid>50ca88b3-55fc-4eca-9037-309d3e495847</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>9e7218e9-2428-4a0d-aa07-bf5b42beff25</webElementGuid>
+      <value>id(&quot;whatsapp&quot;)</value>
+      <webElementGuid>9e949675-1c41-4e71-a118-d22809ab613f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>f639c14a-d315-4520-98b6-3dfb4bc5dcdf</webElementGuid>
+      <value>//input[@id='whatsapp']</value>
+      <webElementGuid>64ac8cf3-5878-4a6c-80ed-a8d7f5a70c78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>f521edb2-99c7-4821-9eab-6ad1337ee08b</webElementGuid>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>32b9b2f2-01fb-4d46-8a18-8cfa699690d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @placeholder = 'contoh@mail.com' and @type = 'email' and @name = 'email']</value>
-      <webElementGuid>c2340d82-0158-42e7-8585-df2570944b46</webElementGuid>
+      <value>//input[@id = 'whatsapp' and @type = 'number' and @placeholder = 'WhatsApp ' and @name = 'whatsapp']</value>
+      <webElementGuid>50119523-a50c-4e67-bb04-52a9afca54aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

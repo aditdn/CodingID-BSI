@@ -21,27 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
+WebUI.click(findTestObject('Homepage/Btn_buat akun'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Nama'), 'Test123')
+WebUI.setText(findTestObject('Buat akun page/Field_nama'), 'Test123')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Tanggal lahir'), '28-Aug-2016')
+WebUI.setText(findTestObject('Buat akun page/Field_tanggal lahir'), '28-Aug-2016')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-E-Mail'), 'contoh@mail.com')
+WebUI.setText(findTestObject('Buat akun page/Field_E-Mail'), 'contoh@mail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Whatsapp'), '123456789')
+WebUI.setText(findTestObject('Buat akun page/Field_Whatsapp'), '123456789')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Kata Sandi'), 
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 
     'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Field-Konfirmasi kata sandi'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Checkbox-Daftar'))
+WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
-
-WebUI.verifyElementText(findTestObject('Verification page/text_Verifikasi Email-verifikasi page'), 'Verifikasi Email')
+WebUI.verifyElementText(findTestObject('Buat akun page/text_Verifikasi Email-verifikasi page'), 'Verifikasi Email')
 
 WebUI.closeBrowser()
 

@@ -21,25 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Btn_Masuk_fix'))
+WebUI.click(findTestObject('Homepage/Btn_Masuk'))
 
-WebUI.setText(findTestObject('Masuk page/Masuk/Field_Email_fix'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Masuk page/Field_Email'), 'dwinugrahaaditya29@gmail.com')
 
-WebUI.setText(findTestObject('Masuk page/Masuk/Field_kata sandi fix'), 'Adittest')
+WebUI.setText(findTestObject('Masuk page/Field_kata sandi'), 'Adittest')
 
-WebUI.click(findTestObject('Masuk page/Masuk/Btn_Login_fix'))
+WebUI.click(findTestObject('Masuk page/Btn_Login'))
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile fix'))
+WebUI.click(findTestObject('Homepage/Btn_icon profile'))
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_My account fix'))
+WebUI.click(findTestObject('Homepage/Btn_My account'))
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_profile fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_profile'))
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Edit Profile fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_Edit Profile'))
 
-WebUI.setText(findTestObject('Profil page/Page_Coding.ID - Dashboard/Field_Phone fix'), '6123456789121')
+WebUI.setText(findTestObject('Edit profile page/Field_Phone'), '6123456789121')
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_Save Changes fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_Save Changes'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
     'The whatsapp must be between 10 and 12 digits.')

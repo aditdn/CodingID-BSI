@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Btn_Masuk_fix'))
+WebUI.click(findTestObject('Homepage/Btn_Masuk'))
 
-WebUI.setText(findTestObject('Masuk page/Masuk/Field_Email_fix'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Masuk page/Field_Email'), 'dwinugrahaaditya29@gmail.com')
 
-WebUI.setText(findTestObject('Masuk page/Masuk/Field_kata sandi fix'), 'Adittest')
+WebUI.setText(findTestObject('Masuk page/Field_kata sandi'), 'Adittest')
 
-WebUI.click(findTestObject('Masuk page/Masuk/Btn_Login_fix'))
+WebUI.click(findTestObject('Masuk page/Btn_Login'))
 

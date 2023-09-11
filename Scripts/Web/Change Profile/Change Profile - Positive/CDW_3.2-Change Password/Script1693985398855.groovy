@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_icon profile fix'))
+WebUI.click(findTestObject('Homepage/Btn_icon profile'))
 
-WebUI.click(findTestObject('Homepage/Homepage fix/Page_Be a Profressional Talent with Coding.ID/Btn_My account fix'))
+WebUI.click(findTestObject('Homepage/Btn_My account'))
 
-WebUI.click(findTestObject('Profil page/Page_Coding.ID - Dashboard/Btn_profile fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_profile'))
 
-WebUI.click(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Btn_Change Password fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_Change Password'))
 
-WebUI.setEncryptedText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/field_Old Password fix'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Edit profile page/field_Old Password'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Field_New Password fix'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Edit profile page/Field_New Password'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Field_Confirmation Password fix'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Edit profile page/Field_Confirmation Password'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.click(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Btn_Save Changes password fix'))
+WebUI.click(findTestObject('Edit profile page/Btn_Save Changes password'))
 
-WebUI.verifyElementText(findTestObject('Edit profile page/Page_Coding.ID - Dashboard/Text_Berhasil fix'), 'Berhasil')
+WebUI.verifyElementText(findTestObject('Edit profile page/Text_Berhasil'), 'Berhasil')
 
 WebUI.closeBrowser()
 

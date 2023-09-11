@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
+WebUI.click(findTestObject('Homepage/Btn_buat akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Btn-syarat_dan_ketentuan'))
+WebUI.click(findTestObject('Buat akun page/Btn_syarat dan ketentuan'))
 
-WebUI.verifyElementText(findTestObject('Term, Privacy, and Policy page/Text_Coding.ID Privacy and Policy_term and condition page'), 
+WebUI.verifyElementText(findTestObject('Buat akun page/Text_Coding.ID Privacy and Policy'), 
     'Coding.ID Privacy and Policy')
 
 WebUI.closeBrowser()
