@@ -33,15 +33,13 @@ WebUI.setText(findTestObject('Buat akun page/Field_Whatsapp'), '1234567891')
 
 WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Kata Sandi'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 
-    'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
 WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Text_Umur harus minimal 7 tahun'), 
-    'Umur harus minimal 7 tahun')
+WebUI.verifyElementText(findTestObject('Buat akun page/Text_Umur harus minimal 7 tahun'), 'Umur harus minimal 7 tahun')
 
 WebUI.closeBrowser()
 
