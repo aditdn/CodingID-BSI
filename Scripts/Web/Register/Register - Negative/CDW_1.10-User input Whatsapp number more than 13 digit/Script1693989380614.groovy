@@ -39,8 +39,7 @@ WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
 WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
-    'The whatsapp must be between 10 and 12 digits.')
+WebUI.verifyElementText(findTestObject('Edit profile page/Text_The whatsapp must be between 10 and 12 digits fix'), 'The whatsapp must be between 10 and 12 digits.')
 
 WebUI.closeBrowser()
 

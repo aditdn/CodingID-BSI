@@ -33,8 +33,7 @@ WebUI.setText(findTestObject('Buat akun page/Field_Whatsapp'), '12345678')
 
 WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
 
 WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
@@ -42,7 +41,7 @@ WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
 WebUI.click(findTestObject('Homepage/icon_Coding ID'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Be a Profressional Talent with Coding.ID/Btn-Buat_Akun'))
+WebUI.verifyElementClickable(findTestObject('Homepage/Btn_buat akun'))
 
 WebUI.closeBrowser()
 
