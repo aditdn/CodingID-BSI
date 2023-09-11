@@ -41,8 +41,7 @@ WebUI.setText(findTestObject('Edit profile page/Field_Phone'), '6123456789121')
 
 WebUI.click(findTestObject('Edit profile page/Btn_Save Changes'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
-    'The whatsapp must be between 10 and 12 digits.')
+WebUI.verifyElementText(findTestObject('Edit profile page/Text_The whatsapp must be between 10 and 12'), 'The whatsapp must be between 10 and 12 digits.')
 
 WebUI.closeBrowser()
 

@@ -31,8 +31,7 @@ WebUI.setText(findTestObject('Edit profile page/Field_Fullname'), 'qwertyuiopasd
 
 WebUI.click(findTestObject('Edit profile page/Btn_Save Changes'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The name may not be greater than 30'), 
-    'The name may not be greater than 30 characters.')
+WebUI.verifyElementText(findTestObject('Edit profile page/Text_The name may not be greater than 30'), 'The name may not be greater than 30 characters.')
 
 WebUI.closeBrowser()
 
