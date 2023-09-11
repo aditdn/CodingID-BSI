@@ -17,31 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Web/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.click(findTestObject('Homepage/Btn_icon profile'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
+WebUI.click(findTestObject('Homepage/Btn_My account'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
+WebUI.click(findTestObject('Edit profile page/Btn_profile'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 'Adittest')
+WebUI.click(findTestObject('Edit profile page/Btn_Edit Profile'))
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
+WebUI.click(findTestObject('Edit profile page/icon_Camera'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt'))
+WebUI.click(findTestObject('Edit profile page/Btn_Save Changes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/span_Profil'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Edit Profile'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/img'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/img_Invoice_avatar-icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
+WebUI.verifyElementText(findTestObject('Edit profile page/Text_Berhasil'), 'Berhasil')
 
 WebUI.closeBrowser()
 

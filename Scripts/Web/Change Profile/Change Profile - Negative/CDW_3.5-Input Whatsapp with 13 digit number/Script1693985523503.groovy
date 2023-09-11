@@ -21,26 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-Masuk_in_homepage'))
+WebUI.click(findTestObject('Homepage/Btn_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Email_login'), 'dwinugrahaaditya29@gmail.com')
+WebUI.setText(findTestObject('Masuk page/Field_Email'), 'dwinugrahaaditya29@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Field-Kata_sandi_login'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.setText(findTestObject('Masuk page/Field_kata sandi'), 'Adittest')
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/Btn-Login-Masuk'))
+WebUI.click(findTestObject('Masuk page/Btn_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/a'))
+WebUI.click(findTestObject('Homepage/Btn_icon profile'))
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/Btn-My_Account_in_homepage'))
+WebUI.click(findTestObject('Homepage/Btn_My account'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/span_Profil'))
+WebUI.click(findTestObject('Edit profile page/Btn_profile'))
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Btn-Edit Profile'))
+WebUI.click(findTestObject('Edit profile page/Btn_Edit Profile'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Field-Phone_Profile'), '6123456789121')
+WebUI.setText(findTestObject('Edit profile page/Field_Phone'), '6123456789121')
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
+WebUI.click(findTestObject('Edit profile page/Btn_Save Changes'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
     'The whatsapp must be between 10 and 12 digits.')

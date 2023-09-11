@@ -21,29 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528'))
+WebUI.click(findTestObject('Homepage/Btn_buat akun'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Nama_name'), 'test123')
+WebUI.setText(findTestObject('Buat akun page/Field_nama'), 'test123')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Tanggal lahir_birth_date'), 
-    '31-12-2017')
+WebUI.setText(findTestObject('Buat akun page/Field_tanggal lahir'), '31-12-2017')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_E-Mail_email'), 'contoh@mail.com')
+WebUI.setText(findTestObject('Buat akun page/Field_E-Mail'), 'contoh@mail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Whatsapp_whatsapp'), 
-    '1234567891')
+WebUI.setText(findTestObject('Buat akun page/Field_Whatsapp'), '1234567891')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Kata Sandi_password'), 
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Kata Sandi'), 'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 
     'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_password_confirmation'), 
-    'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1'))
+WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar (1)'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/small_Umur harus minimal 7 tahun'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/Text_Umur harus minimal 7 tahun'), 
     'Umur harus minimal 7 tahun')
 
 WebUI.closeBrowser()

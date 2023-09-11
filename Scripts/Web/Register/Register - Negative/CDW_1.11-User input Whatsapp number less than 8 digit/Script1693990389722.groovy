@@ -21,28 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528 (2)'))
+WebUI.click(findTestObject('Homepage/Btn_buat akun'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Nama_name (2)'), 'test123')
+WebUI.setText(findTestObject('Buat akun page/Field_nama'), 'test123')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Tanggal lahir_birth_date (2)'), 
-    '29-Mar-1997')
+WebUI.setText(findTestObject('Buat akun page/Field_tanggal lahir'), '29-Mar-1997')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_E-Mail_email (2)'), 
-    'contoh@mail.com')
+WebUI.setText(findTestObject('Buat akun page/Field_E-Mail'), 'contoh@mail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Whatsapp_whatsapp (2)'), 
-    '123')
+WebUI.setText(findTestObject('Buat akun page/Field_Whatsapp'), '123')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Kata Sandi_password (2)'), 
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Kata Sandi'), 'AWnwaDJYiAmw0Tn/ZROizA==')
+
+WebUI.setEncryptedText(findTestObject('Buat akun page/Field_Konfirmasi kata sandi'), 
     'AWnwaDJYiAmw0Tn/ZROizA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_password_confirmation (2)'), 
-    'AWnwaDJYiAmw0Tn/ZROizA==')
+WebUI.click(findTestObject('Buat akun page/Checkbox_Daftar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1 (2)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar (3)'))
+WebUI.click(findTestObject('Buat akun page/Btn_Daftar'))
 
 WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/Validation-The whatsapp must be between 10 and 12'), 
     'The whatsapp must be between 10 and 12 digits.')
